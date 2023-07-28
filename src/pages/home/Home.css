@@ -1,0 +1,130 @@
+.home-link {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .home-inner-div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: sticky;
+    height: fit-content;
+    top: 0;
+    gap: 29rem;
+    flex-wrap: wrap;
+  }
+  
+  .signout {
+    cursor: pointer;
+  }
+  
+  .sidebar {
+    margin: 0.5rem;
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .sidebar-inner-div {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0rem 1rem;
+  }
+  
+  .sidebar-inner-div:hover {
+    border-radius: 5rem;
+    transition: 0.3s;
+    background: rgba(255, 255, 255, 0.058);
+  }
+  
+  .home-user-div {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  .home-user-about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .home-username {
+    font-size: small;
+    color: rgba(128, 128, 128, 0.916);
+  }
+  
+  .sort-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 0;
+    padding: 0.4rem;
+    border: solid gray;
+    border-width: 0.000001px;
+    cursor: pointer;
+  }
+  
+  .sort-p {
+    border-right: solid gray;
+  }
+  
+  .post-edit_modal_outer_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(7px);
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+  }
+  
+  .post-edit_modal_outer_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 12px;
+    overflow: auto;
+    max-width: 35rem;
+    width: 100%;
+    max-height: 80vh;
+    background-color: #003153;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+      rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  }
+  
+  .post-edit_modal_outer_container textarea {
+    background: none;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: 14px;
+    width: -webkit-fill-available;
+    padding: 0.5rem;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+      rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  }
+  
+  .post-edit_modal_outer_container textarea:focus,
+  .post-edit_modal_outer_container textarea:hover {
+    outline: none;
+  }
+  
+  .post-edit_modal_outer_container button {
+    font-size: 15px;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: rgb(29, 155, 240);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

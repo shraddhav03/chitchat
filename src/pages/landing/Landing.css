@@ -1,0 +1,71 @@
+.landing-parent-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 7rem;
+    gap: 5rem;
+  }
+  
+  .landing-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .landing-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: whitesmoke;
+    background-size: 300% auto;
+    animation: gradientAnimation 5s linear infinite;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .landing-sub-title {
+    font-size: 12px;
+  }
+  
+  .landing-btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 2rem;
+    flex-direction: column;
+  }
+  
+  .landing-btn {
+    width: 25rem;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 5px;
+    background: white;
+    color: #252525;
+    box-shadow: 0px 1px 1px rgba(9, 30, 66, 0.25),
+      0px 0px 1px 1px rgba(9, 30, 66, 0.13);
+  }
+  .landing-btn:hover {
+    transition: 0.3s;
+    color: white;
+    background: none;
+    border: 1px solid white;
+  }
+  
+  .landing-signin-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .landing-btn-link {
+    color: #01826a;
+    text-decoration: none;
+  }
+  .landing-btn-link:hover {
+    color: white;
+  }
